@@ -40,3 +40,12 @@ body {
   height: 100%;
   z-index: -1;
 }
+
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
