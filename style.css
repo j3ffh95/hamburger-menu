@@ -49,3 +49,11 @@ body {
   text-align: center;
   height: 100%;
 }
+
+.showcase h1 {
+  font-size: 4rem;
+}
+
+.showcase p {
+  font-size: 1.3rem;
+}
