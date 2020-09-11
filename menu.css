@@ -70,3 +70,8 @@
   top: 0;
   transform: rotate(90deg);
 }
+
+/* Rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
