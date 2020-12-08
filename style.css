@@ -72,3 +72,13 @@ body {
 .btn:hover {
   opacity: 0.7;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.section-1 {
+  background: purple;
+  color: #fff;
+}
