@@ -20,7 +20,7 @@
           <div>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#about-us">About</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -30,17 +30,19 @@
     </div>
 
     <header class="showcase">
+      <nav class="main-nav">
+        <ul class="nav-list container">
+          <li class="list-item"><a href="#" class="list-link">Home</a></li>
+          <li class="list-item">
+            <a href="#about-us" class="list-link">About</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-link">Services</a>
+          </li>
+          <li class="list-item"><a href="#" class="list-link">Contact</a></li>
+        </ul>
+      </nav>
       <div class="container showcase-inner">
-        <nav class="container">
-          <ul class="nav-list">
-            <li class="list-item"><a href="#" class="list-link">Home</a></li>
-            <li class="list-item"><a href="#" class="list-link">About</a></li>
-            <li class="list-item">
-              <a href="#" class="list-link">Services</a>
-            </li>
-            <li class="list-item"><a href="#" class="list-link">Contact</a></li>
-          </ul>
-        </nav>
         <h1>Welcome</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam
@@ -49,7 +51,7 @@
         <a href="#" class="btn">Read More</a>
       </div>
     </header>
-    <main>
+    <main id="about-us">
       <section class="section-1">
         <div class="container grid">
           <div class="box">
@@ -129,5 +131,6 @@
         </div>
       </section>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>
