@@ -1,3 +1,12 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -150,7 +159,7 @@ nav {
   }
 
   nav {
-    display: block;
+    /* display: block; */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -163,8 +172,17 @@ nav {
   .nav-list {
     display: flex;
     justify-content: end;
-    padding-right: 3rem;
     align-items: center;
     height: 100%;
+  }
+
+  .list-link {
+    padding: 0.75em 1em;
+    transition: color 0.5s, background 0.5s;
+  }
+
+  .list-link:hover {
+    color: navy;
+    background: #ccc;
   }
 }
