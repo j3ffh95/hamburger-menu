@@ -112,3 +112,21 @@ body {
 .section-1 .box:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+/* Section 2 Layout */
+.section-2 {
+  height: 40rem;
+  background: chocolate;
+  padding: 2rem;
+}
+
+.section-2 .grid > .box {
+  grid-column: span 3;
+  padding: 1em;
+  text-align: center;
+}
+
+.section-2 .grid > .box:last-child {
+  grid-column: 1/ -1;
+  text-align: center;
+}
